@@ -1,0 +1,5 @@
+package com.cibertec.rest;
+
+public class CursoController {
+
+}

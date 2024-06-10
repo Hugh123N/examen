@@ -1,0 +1,5 @@
+package com.cibertec.services;
+
+public interface ICursoServices {
+
+}

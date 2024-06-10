@@ -1,0 +1,5 @@
+package com.cibertec.reposirtory;
+@repository
+public class ICursoRepository extends JpaRepository<Pet, Integer>{
+
+}

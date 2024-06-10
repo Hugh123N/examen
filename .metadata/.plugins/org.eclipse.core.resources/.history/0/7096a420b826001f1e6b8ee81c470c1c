@@ -1,0 +1,14 @@
+package com.cibertec.services;
+
+import java.util.List;
+import java.util.Optional;
+
+import com.cibertec.model.Curso;
+
+public interface ICursoServices {
+		public List<Curso> GetAllCurso();
+	    public Optional<Curso> SaveCurso(Curso entity);
+	    Curso FindCursoById(int id);
+	    Curso DeleteCursoById(int id);
+	    Curso UpdateCurso(Curso entity);
+}

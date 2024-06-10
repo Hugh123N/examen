@@ -1,0 +1,11 @@
+package com.cibertec.model;
+
+//ESTRUCTURAS
+@NoArgsConstructor
+@AllArgsConstructor
+@Getter
+@Setter
+@Entity
+public class Curso {
+
+}

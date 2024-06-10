@@ -1,0 +1,14 @@
+package com.cibertec.rest;
+
+import org.springframework.web.bind.annotation.RestController;
+
+import com.cibertec.services.ICursoServices;
+
+@RestController
+public class CursoController {
+	ICursoServices cursoServices;
+	public CursoController(ICursoServices cursoServices) {
+		this.cursoServices=cursoServices;
+	}
+	
+}
